@@ -142,6 +142,3 @@ class BackupHandler():
         instance.readBackup()
         encoded_backup = instance.backup_content
         return encoded_backup
-
-    # def _restoreBackup(self, key, mp, ps):
-    #     self.file_handler("wb", key, )
